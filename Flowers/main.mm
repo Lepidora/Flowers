@@ -1,5 +1,5 @@
 //
-//  main.m
+//  main.mm
 //  Flowers
 //
 //  Created by Mia on 24/11/2018.
@@ -8,6 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+#include "Flowers.h"
+
+//Engine Includes
+#include <Engine.h>
+#include <Game.h>
+
 int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
+    Engine::initialize(GamePtr(new Flowers()));
+    Engine::run();
 }

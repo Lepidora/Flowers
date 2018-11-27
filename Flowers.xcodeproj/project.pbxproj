@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D583DEB21AA271D00A2B89E /* PerlinNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D583DE921AA271D00A2B89E /* PerlinNoise.cpp */; };
+		0D583DF621AA2C6B00A2B89E /* flowers.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D583DF221AA2B2500A2B89E /* flowers.png */; };
+		0D583DF921AA3EF300A2B89E /* FlowerInputComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D583DF721AA3EF300A2B89E /* FlowerInputComponent.cpp */; };
 		0DA3E44121A9745D008A6DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E44021A9745D008A6DC2 /* AppDelegate.m */; };
 		0DA3E44321A97465008A6DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E44221A97465008A6DC2 /* Assets.xcassets */; };
 		0DA3E44621A97465008A6DC2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E44421A97465008A6DC2 /* MainMenu.xib */; };
-		0DA3E44921A97465008A6DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E44821A97465008A6DC2 /* main.m */; };
+		0DA3E44921A97465008A6DC2 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E44821A97465008A6DC2 /* main.mm */; };
 		0DA3E45421A97465008A6DC2 /* FlowersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E45321A97465008A6DC2 /* FlowersTests.m */; };
 		0DA3E45F21A97465008A6DC2 /* FlowersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E45E21A97465008A6DC2 /* FlowersUITests.m */; };
+		0DA3E46E21A97496008A6DC2 /* libLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA3E46D21A97496008A6DC2 /* libLua.a */; };
+		0DA3E47021A97496008A6DC2 /* libXylena.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA3E46F21A97496008A6DC2 /* libXylena.a */; };
+		0DA3E47321A97496008A6DC2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA3E47121A97496008A6DC2 /* Cocoa.framework */; };
+		0DA3E47421A97496008A6DC2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA3E47221A97496008A6DC2 /* OpenGL.framework */; };
+		0DA3E47D21A9751C008A6DC2 /* Flowers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E47B21A9751C008A6DC2 /* Flowers.cpp */; };
+		0DA3E48721A975DF008A6DC2 /* tulip_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E47F21A975DE008A6DC2 /* tulip_purple.png */; };
+		0DA3E48821A975DF008A6DC2 /* tulip_teal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E48021A975DF008A6DC2 /* tulip_teal.png */; };
+		0DA3E48921A975DF008A6DC2 /* baby_blue_eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E48121A975DF008A6DC2 /* baby_blue_eyes.png */; };
+		0DA3E48A21A975DF008A6DC2 /* rose.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E48221A975DF008A6DC2 /* rose.png */; };
+		0DA3E48B21A975DF008A6DC2 /* tulip_pinkpurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E48321A975DF008A6DC2 /* tulip_pinkpurple.png */; };
+		0DA3E48C21A975DF008A6DC2 /* daisy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E48421A975DF008A6DC2 /* daisy.png */; };
+		0DA3E48D21A975DF008A6DC2 /* tulip_yellowred.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E48521A975DF008A6DC2 /* tulip_yellowred.png */; };
+		0DA3E48E21A975DF008A6DC2 /* tulip_orangered.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3E48621A975DF008A6DC2 /* tulip_orangered.png */; };
+		0DA3E49221A9779D008A6DC2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA3E49121A9779C008A6DC2 /* IOKit.framework */; };
+		0DA3E49421A977A9008A6DC2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA3E49321A977A9008A6DC2 /* CoreVideo.framework */; };
+		0DB5818221A97BD300D39831 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB5818121A97BD200D39831 /* libglfw3.a */; };
+		0DB5818521A97C5500D39831 /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5818321A97C5500D39831 /* Field.cpp */; };
+		0DB5818A21A97E7500D39831 /* FlowerSpawner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5818821A97E7500D39831 /* FlowerSpawner.cpp */; };
+		0DB5818E21A97F2000D39831 /* FlowerRenderComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5818C21A97F2000D39831 /* FlowerRenderComponent.cpp */; };
+		0DB5819121A9855300D39831 /* Textures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5818F21A9855300D39831 /* Textures.cpp */; };
+		0DB5819521A997F600D39831 /* Flower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5819321A997F600D39831 /* Flower.cpp */; };
+		0DB5819821A9B29400D39831 /* flower.vert in Resources */ = {isa = PBXBuildFile; fileRef = 0DB5819721A9B29400D39831 /* flower.vert */; };
+		0DB5819A21A9B29D00D39831 /* flower.frag in Resources */ = {isa = PBXBuildFile; fileRef = 0DB5819921A9B29D00D39831 /* flower.frag */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +59,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D583DE921AA271D00A2B89E /* PerlinNoise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PerlinNoise.cpp; path = "../../../../../Downloads/Perlin_Noise-master/PerlinNoise.cpp"; sourceTree = "<group>"; };
+		0D583DEA21AA271D00A2B89E /* PerlinNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PerlinNoise.h; path = "../../../../../Downloads/Perlin_Noise-master/PerlinNoise.h"; sourceTree = "<group>"; };
+		0D583DF221AA2B2500A2B89E /* flowers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flowers.png; sourceTree = "<group>"; };
+		0D583DF721AA3EF300A2B89E /* FlowerInputComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FlowerInputComponent.cpp; sourceTree = "<group>"; };
+		0D583DF821AA3EF300A2B89E /* FlowerInputComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowerInputComponent.h; sourceTree = "<group>"; };
 		0DA3E43C21A9745D008A6DC2 /* Flowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA3E43F21A9745D008A6DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DA3E44021A9745D008A6DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0DA3E44221A97465008A6DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA3E44521A97465008A6DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0DA3E44721A97465008A6DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DA3E44821A97465008A6DC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DA3E44821A97465008A6DC2 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		0DA3E44A21A97465008A6DC2 /* Flowers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flowers.entitlements; sourceTree = "<group>"; };
 		0DA3E44F21A97465008A6DC2 /* FlowersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA3E45321A97465008A6DC2 /* FlowersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowersTests.m; sourceTree = "<group>"; };
@@ -47,6 +78,35 @@
 		0DA3E45A21A97465008A6DC2 /* FlowersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA3E45E21A97465008A6DC2 /* FlowersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowersUITests.m; sourceTree = "<group>"; };
 		0DA3E46021A97465008A6DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA3E46D21A97496008A6DC2 /* libLua.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLua.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA3E46F21A97496008A6DC2 /* libXylena.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libXylena.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA3E47121A97496008A6DC2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0DA3E47221A97496008A6DC2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0DA3E47B21A9751C008A6DC2 /* Flowers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flowers.cpp; sourceTree = "<group>"; };
+		0DA3E47C21A9751C008A6DC2 /* Flowers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flowers.h; sourceTree = "<group>"; };
+		0DA3E47F21A975DE008A6DC2 /* tulip_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip_purple.png; sourceTree = "<group>"; };
+		0DA3E48021A975DF008A6DC2 /* tulip_teal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip_teal.png; sourceTree = "<group>"; };
+		0DA3E48121A975DF008A6DC2 /* baby_blue_eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_blue_eyes.png; sourceTree = "<group>"; };
+		0DA3E48221A975DF008A6DC2 /* rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose.png; sourceTree = "<group>"; };
+		0DA3E48321A975DF008A6DC2 /* tulip_pinkpurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip_pinkpurple.png; sourceTree = "<group>"; };
+		0DA3E48421A975DF008A6DC2 /* daisy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daisy.png; sourceTree = "<group>"; };
+		0DA3E48521A975DF008A6DC2 /* tulip_yellowred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip_yellowred.png; sourceTree = "<group>"; };
+		0DA3E48621A975DF008A6DC2 /* tulip_orangered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip_orangered.png; sourceTree = "<group>"; };
+		0DA3E49121A9779C008A6DC2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		0DA3E49321A977A9008A6DC2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0DB5818121A97BD200D39831 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../Dependencies/glfw3/libglfw3.a; sourceTree = "<group>"; };
+		0DB5818321A97C5500D39831 /* Field.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Field.cpp; sourceTree = "<group>"; };
+		0DB5818421A97C5500D39831 /* Field.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		0DB5818821A97E7500D39831 /* FlowerSpawner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FlowerSpawner.cpp; sourceTree = "<group>"; };
+		0DB5818921A97E7500D39831 /* FlowerSpawner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowerSpawner.h; sourceTree = "<group>"; };
+		0DB5818C21A97F2000D39831 /* FlowerRenderComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FlowerRenderComponent.cpp; sourceTree = "<group>"; };
+		0DB5818D21A97F2000D39831 /* FlowerRenderComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowerRenderComponent.h; sourceTree = "<group>"; };
+		0DB5818F21A9855300D39831 /* Textures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Textures.cpp; sourceTree = "<group>"; };
+		0DB5819021A9855300D39831 /* Textures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Textures.h; sourceTree = "<group>"; };
+		0DB5819321A997F600D39831 /* Flower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flower.cpp; sourceTree = "<group>"; };
+		0DB5819421A997F600D39831 /* Flower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flower.h; sourceTree = "<group>"; };
+		0DB5819721A9B29400D39831 /* flower.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = flower.vert; sourceTree = "<group>"; };
+		0DB5819921A9B29D00D39831 /* flower.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = flower.frag; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +114,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB5818221A97BD300D39831 /* libglfw3.a in Frameworks */,
+				0DA3E49421A977A9008A6DC2 /* CoreVideo.framework in Frameworks */,
+				0DA3E49221A9779D008A6DC2 /* IOKit.framework in Frameworks */,
+				0DA3E47321A97496008A6DC2 /* Cocoa.framework in Frameworks */,
+				0DA3E47421A97496008A6DC2 /* OpenGL.framework in Frameworks */,
+				0DA3E46E21A97496008A6DC2 /* libLua.a in Frameworks */,
+				0DA3E47021A97496008A6DC2 /* libXylena.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +148,7 @@
 				0DA3E45221A97465008A6DC2 /* FlowersTests */,
 				0DA3E45D21A97465008A6DC2 /* FlowersUITests */,
 				0DA3E43D21A9745D008A6DC2 /* Products */,
+				0DA3E46C21A97496008A6DC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,13 +165,14 @@
 		0DA3E43E21A9745D008A6DC2 /* Flowers */ = {
 			isa = PBXGroup;
 			children = (
-				0DA3E43F21A9745D008A6DC2 /* AppDelegate.h */,
-				0DA3E44021A9745D008A6DC2 /* AppDelegate.m */,
-				0DA3E44221A97465008A6DC2 /* Assets.xcassets */,
-				0DA3E44421A97465008A6DC2 /* MainMenu.xib */,
-				0DA3E44721A97465008A6DC2 /* Info.plist */,
-				0DA3E44821A97465008A6DC2 /* main.m */,
-				0DA3E44A21A97465008A6DC2 /* Flowers.entitlements */,
+				0DB5819621A9B28000D39831 /* Shaders */,
+				0DB5819221A9855600D39831 /* Utilities */,
+				0DB5818B21A97F1300D39831 /* Components */,
+				0DB5818721A97E5600D39831 /* Objects */,
+				0DA3E47B21A9751C008A6DC2 /* Flowers.cpp */,
+				0DA3E47C21A9751C008A6DC2 /* Flowers.h */,
+				0DA3E47A21A97506008A6DC2 /* Stages */,
+				0DA3E47621A974BA008A6DC2 /* Supporting Files */,
 			);
 			path = Flowers;
 			sourceTree = "<group>";
@@ -124,6 +193,102 @@
 				0DA3E46021A97465008A6DC2 /* Info.plist */,
 			);
 			path = FlowersUITests;
+			sourceTree = "<group>";
+		};
+		0DA3E46C21A97496008A6DC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DB5818121A97BD200D39831 /* libglfw3.a */,
+				0DA3E49321A977A9008A6DC2 /* CoreVideo.framework */,
+				0DA3E49121A9779C008A6DC2 /* IOKit.framework */,
+				0DA3E47121A97496008A6DC2 /* Cocoa.framework */,
+				0DA3E47221A97496008A6DC2 /* OpenGL.framework */,
+				0DA3E46D21A97496008A6DC2 /* libLua.a */,
+				0DA3E46F21A97496008A6DC2 /* libXylena.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DA3E47621A974BA008A6DC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DA3E43F21A9745D008A6DC2 /* AppDelegate.h */,
+				0DA3E44021A9745D008A6DC2 /* AppDelegate.m */,
+				0DA3E47E21A97596008A6DC2 /* images */,
+				0DA3E44221A97465008A6DC2 /* Assets.xcassets */,
+				0DA3E44421A97465008A6DC2 /* MainMenu.xib */,
+				0DA3E44721A97465008A6DC2 /* Info.plist */,
+				0DA3E44821A97465008A6DC2 /* main.mm */,
+				0DA3E44A21A97465008A6DC2 /* Flowers.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DA3E47A21A97506008A6DC2 /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				0DB5818321A97C5500D39831 /* Field.cpp */,
+				0DB5818421A97C5500D39831 /* Field.h */,
+			);
+			name = Stages;
+			sourceTree = "<group>";
+		};
+		0DA3E47E21A97596008A6DC2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0D583DF221AA2B2500A2B89E /* flowers.png */,
+				0DA3E48121A975DF008A6DC2 /* baby_blue_eyes.png */,
+				0DA3E48421A975DF008A6DC2 /* daisy.png */,
+				0DA3E48221A975DF008A6DC2 /* rose.png */,
+				0DA3E48621A975DF008A6DC2 /* tulip_orangered.png */,
+				0DA3E48321A975DF008A6DC2 /* tulip_pinkpurple.png */,
+				0DA3E47F21A975DE008A6DC2 /* tulip_purple.png */,
+				0DA3E48021A975DF008A6DC2 /* tulip_teal.png */,
+				0DA3E48521A975DF008A6DC2 /* tulip_yellowred.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		0DB5818721A97E5600D39831 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0DB5818821A97E7500D39831 /* FlowerSpawner.cpp */,
+				0DB5818921A97E7500D39831 /* FlowerSpawner.h */,
+				0DB5819321A997F600D39831 /* Flower.cpp */,
+				0DB5819421A997F600D39831 /* Flower.h */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		0DB5818B21A97F1300D39831 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0DB5818C21A97F2000D39831 /* FlowerRenderComponent.cpp */,
+				0DB5818D21A97F2000D39831 /* FlowerRenderComponent.h */,
+				0D583DF721AA3EF300A2B89E /* FlowerInputComponent.cpp */,
+				0D583DF821AA3EF300A2B89E /* FlowerInputComponent.h */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		0DB5819221A9855600D39831 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0D583DE921AA271D00A2B89E /* PerlinNoise.cpp */,
+				0D583DEA21AA271D00A2B89E /* PerlinNoise.h */,
+				0DB5819021A9855300D39831 /* Textures.h */,
+				0DB5818F21A9855300D39831 /* Textures.cpp */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0DB5819621A9B28000D39831 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				0DB5819721A9B29400D39831 /* flower.vert */,
+				0DB5819921A9B29D00D39831 /* flower.frag */,
+			);
+			name = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +394,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB5819A21A9B29D00D39831 /* flower.frag in Resources */,
+				0DB5819821A9B29400D39831 /* flower.vert in Resources */,
+				0DA3E48E21A975DF008A6DC2 /* tulip_orangered.png in Resources */,
+				0DA3E48D21A975DF008A6DC2 /* tulip_yellowred.png in Resources */,
+				0DA3E48821A975DF008A6DC2 /* tulip_teal.png in Resources */,
+				0DA3E48921A975DF008A6DC2 /* baby_blue_eyes.png in Resources */,
+				0DA3E48A21A975DF008A6DC2 /* rose.png in Resources */,
 				0DA3E44321A97465008A6DC2 /* Assets.xcassets in Resources */,
+				0DA3E48721A975DF008A6DC2 /* tulip_purple.png in Resources */,
+				0DA3E48B21A975DF008A6DC2 /* tulip_pinkpurple.png in Resources */,
+				0DA3E48C21A975DF008A6DC2 /* daisy.png in Resources */,
+				0D583DF621AA2C6B00A2B89E /* flowers.png in Resources */,
 				0DA3E44621A97465008A6DC2 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +431,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA3E44921A97465008A6DC2 /* main.m in Sources */,
+				0DB5818E21A97F2000D39831 /* FlowerRenderComponent.cpp in Sources */,
+				0DA3E44921A97465008A6DC2 /* main.mm in Sources */,
+				0D583DEB21AA271D00A2B89E /* PerlinNoise.cpp in Sources */,
+				0DB5819521A997F600D39831 /* Flower.cpp in Sources */,
 				0DA3E44121A9745D008A6DC2 /* AppDelegate.m in Sources */,
+				0DB5818521A97C5500D39831 /* Field.cpp in Sources */,
+				0DA3E47D21A9751C008A6DC2 /* Flowers.cpp in Sources */,
+				0D583DF921AA3EF300A2B89E /* FlowerInputComponent.cpp in Sources */,
+				0DB5819121A9855300D39831 /* Textures.cpp in Sources */,
+				0DB5818A21A97E7500D39831 /* FlowerSpawner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,11 +605,17 @@
 				CODE_SIGN_ENTITLEMENTS = Flowers/Flowers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../Xylena\"/**",
+					"/Users/mia/Documents/xcode/Xylena/Dependencies/lua/**",
+					"\"$(SRCROOT)/../Dependencies\"/**",
+				);
 				INFOPLIST_FILE = Flowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = /Users/mia/Documents/xcode/Xylena/Dependencies/glfw3;
 				PRODUCT_BUNDLE_IDENTIFIER = mia.Flowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -438,11 +628,17 @@
 				CODE_SIGN_ENTITLEMENTS = Flowers/Flowers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../Xylena\"/**",
+					"/Users/mia/Documents/xcode/Xylena/Dependencies/lua/**",
+					"\"$(SRCROOT)/../Dependencies\"/**",
+				);
 				INFOPLIST_FILE = Flowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = /Users/mia/Documents/xcode/Xylena/Dependencies/glfw3;
 				PRODUCT_BUNDLE_IDENTIFIER = mia.Flowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
